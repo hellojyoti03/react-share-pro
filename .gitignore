@@ -2,9 +2,11 @@
 
 # dependencies
 /node_modules
+node_modules/
 /.pnp
 .pnp.js
-
+/react-web-share
+/web-social-share
 # testing
 /coverage
 
