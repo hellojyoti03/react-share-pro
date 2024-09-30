@@ -206,19 +206,19 @@ Each `react-share-pro` component accepts specific props:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/hellojyoti03/react-share-pro/LICENSE.md) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/hellojyoti03/react-share-pro/blob/main/LICENSE.md) file for more information.
 
 ## Contributing
 
-We welcome contributions! Please read our [CONTRIBUTING.md](https://github.com/hellojyoti03/react-share-pro/CONTRIBUTING.md) for guidelines on how to get started.
+We welcome contributions! Please read our [CONTRIBUTING.md](https://github.com/hellojyoti03/react-share-pro/blob/main/CONTRIBUTING.md) for guidelines on how to get started.
 
 ## Issues
 
-If you encounter any issues, please read our [ISSUES.md](https://github.com/hellojyoti03/react-share-pro/ISSUES.md) for guidlines how to submit a issue .
+If you encounter any issues, please read our [ISSUES.md](https://github.com/hellojyoti03/react-share-pro/blob/main/ISSUES.md) for guidlines how to submit a issue .
 
 ## New_Feature
 
-We welcome contributing a new feature to `react-share-pro` Please read our [NEW_FEATURE.md](https://github.com/hellojyoti03/react-share-pro/NEW_FEATURE.md) for guidelines for how to propose a new feature.
+We welcome contributing a new feature to `react-share-pro` Please read our [NEW_FEATURE.md](https://github.com/hellojyoti03/react-share-pro/blob/main/NEW_FEATURE.md) for guidelines for how to propose a new feature.
 
 ## Contact
 
