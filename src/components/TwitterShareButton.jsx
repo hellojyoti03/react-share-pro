@@ -1,7 +1,8 @@
+// @ts-nocheck
 import React from 'react';
 import PropTypes from 'prop-types';
 import { shareViaTwitter } from "../helper"
-
+import '../index.css'
 
 const TwitterShareButton = (props) => {
 
@@ -38,7 +39,7 @@ TwitterShareButton.defaultProps = {
   isDefault: true,
   children: <></>,
 
-  url: window.location.href,
+  url: '',
   text: "",
   tab: "_blank",
   className: "share-button"

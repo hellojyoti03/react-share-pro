@@ -5,10 +5,10 @@
 [![node version](https://img.shields.io/node/v/react-share-pro?color=blue&style=flat)](https://www.npmjs.com/package/react-share-pro)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/react-share-pro) 
 [![downloads](https://img.shields.io/npm/dm/react-share-pro.svg?label=monthly%20downloads)](https://www.npmjs.com/package/react-share-pro) 
-[![downloads](https://img.shields.io/npm/dt/react-share-pro.svg?label=total%20downloads)](https://www.npmjs.com/package/react-share-pro)
+<!-- [![downloads](https://img.shields.io/npm/dt/react-share-pro.svg?label=total%20downloads)](https://www.npmjs.com/package/react-share-pro) -->
 [![documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg?style=flat)](https://github.com/react-share-pro#readme)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat)](https://github.com/react-share-pro/graphs/commit-activity)
-![NPM Collaborators](https://img.shields.io/npm/collaborators/react-share-pro)
+<!-- ![NPM Collaborators](https://img.shields.io/npm/collaborators/react-share-pro) -->
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://github.com/react-share-pro/blob/main/LICENSE)
 
 
@@ -56,11 +56,11 @@ yarn add react-share-pro
 
 ## Version Information
 
-### Current Version: 1.0.0-alpha
+### Current Version: 2.1.5
 
 This is an alpha version of `react-share-pro`. It includes the latest features and improvements but may also contain bugs or unfinished functionality. We encourage developers to test this version but recommend using it in non-production environments.
 
-### Previous Stable Version: 1.0.0
+### Previous Stable Version: 2.1.5
 
 If you prefer stability over new features, you may choose to use the latest stable version. It is well-tested and suitable for production environments. You can install it by running:
 
@@ -228,7 +228,7 @@ Each `react-share-pro` component accepts specific props:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/hellojyoti03/react-share-pro/blob/main/LICENSE.md) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/hellojyoti03/react-share-pro/blob/main/LICENSE) file for more information.
 
 ## Contributing
 

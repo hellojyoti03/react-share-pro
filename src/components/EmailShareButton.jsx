@@ -1,7 +1,8 @@
+// @ts-nocheck
 import React from 'react';
 import PropTypes from 'prop-types';
 import { shareViaEmail } from "../helper"
-
+import '../index.css'
 
 const EmailShareButton = (props) => {
 

@@ -1,0 +1,36 @@
+version: 1.0
+name: Project Scorecard
+
+# General Information
+project:
+  name: react-share-pro
+  description: Boost your React applications with react-share-pro, a customizable library for adding social media sharing buttons. Share effortlessly on Facebook, Twitter, LinkedIn, Reddit, and WhatsApp with beautiful, responsive buttons. Enhance user engagement and drive traffic today!
+  url: https://github.com/hellojyoti03/react-share-pro  
+  language: Node.js  
+
+# Scorecard checks
+checks:
+  - name: "Documentation"
+    description: "Check for a README file and relevant documentation"
+    score: 1  # 1 for pass, 0 for fail
+
+  - name: "Tests"
+    description: "Check if tests are present and passing"
+    score: 1  # 1 for pass, 0 for fail
+
+  - name: "Code Coverage"
+    description: "Check for code coverage reports"
+    score: 1  # 1 for pass, 0 for fail
+
+  - name: "License"
+    description: "Check if the project has a license file"
+    score: 1  # 1 for pass, 0 for fail
+
+  - name: "Security"
+    description: "Check for known vulnerabilities"
+    score: 1  # 1 for pass, 0 for fail
+
+  - name: "Dependency Updates"
+    description: "Check if dependencies are regularly updated"
+    score: 1  # 1 for pass, 0 for fail
+

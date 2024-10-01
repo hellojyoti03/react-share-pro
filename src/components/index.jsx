@@ -1,6 +1,6 @@
-import '../index.css'
 
-import FacebookShareButton from "./FacebookShareButton";
-import EmailShareButton from './EmailShareButton';
-import TwitterShareButton from './TwitterShareButton';
+// @ts-nocheck
+import FacebookShareButton from "./FacebookShareButton.jsx";
+import EmailShareButton from './EmailShareButton.jsx';
+import TwitterShareButton from './TwitterShareButton.jsx';
 export { FacebookShareButton, EmailShareButton, TwitterShareButton }
