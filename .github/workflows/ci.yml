@@ -35,16 +35,16 @@ jobs:
     # - name: Lint code
     #   run: npm run lint
 
-  coverage:
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+  # coverage:
+  #   needs: test
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: Checkout code
+  #     uses: actions/checkout@v4
 
-    - name: Upload code coverage
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        parallel-finished: false
-        path-to-lcov: ./coverage/lcov.info  
+    # - name: Upload code coverage
+    #   uses: coverallsapp/github-action@master
+    #   with:
+    #     github-token: ${{ secrets.GITHUB_TOKEN }}
+    #     parallel-finished: false
+    #     path-to-lcov: ./coverage/lcov.info  
