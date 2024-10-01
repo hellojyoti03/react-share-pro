@@ -1,4 +1,4 @@
-import '../App.css'
+import '../index.css'
 
 import FacebookShareButton from "./FacebookShareButton";
 import EmailShareButton from './EmailShareButton';

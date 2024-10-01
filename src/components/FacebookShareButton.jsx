@@ -27,7 +27,7 @@ const FacebookShareButton = (props) => {
 
 
 // Define default props
-MyComponent.defaultProps = {
+FacebookShareButton.defaultProps = {
   text: '',
   description: '',
   url: '',

@@ -14,7 +14,7 @@ const TwitterShareButton = (props) => {
   if (props.isDefault) {
     return <React.Fragment>
       <button className={"share-button"} onClick={handleShare}>
-        {children}
+        {props.children}
         <i className="fa fa-twitter twitter-svg" aria-hidden="true" ></i>
 
       </button>
@@ -23,7 +23,7 @@ const TwitterShareButton = (props) => {
   return (
     <React.Fragment>
     <button className={"share-button"} onClick={handleShare}>
-      {children}
+      {props.children}
       <i className="fa fa-twitter twitter-svg" aria-hidden="true" ></i>
 
     </button>
