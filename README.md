@@ -1,11 +1,13 @@
+[![NPM](https://img.shields.io/npm/v/react-share-pro.svg)](https://www.npmjs.com/package/react-share-pro) ![npm bundle size](https://img.shields.io/bundlephobia/min/react-share-pro) [![downloads](https://img.shields.io/npm/dm/react-share-pro.svg?label=monthly%20downloads)](https://www.npmjs.com/package/react-share-pro) [![downloads](https://img.shields.io/npm/dt/react-share-pro.svg?label=total%20downloads)](https://www.npmjs.com/package/react-share-pro)
+
 # react-share-pro
 
 ## Introduction
 
-`react-share-pro` is a powerful library for adding customizable social media sharing buttons to your React applications, enabling seamless sharing of content across popular platforms.
+`react-share-pro` is a powerful library for adding customizable social media sharing buttons to your React applications, enabling seamless sharing of content across popular platforms .
 
 ## Table of Contents
-
+- [Features](#features)
 - [Installation](#installation)
 - [Version](#version-information)
 - [Usage](#usage)
@@ -17,6 +19,15 @@
 - [Issues](#issues)
 - [New_Feature](#new_feature)
 - [Contact](#contact)
+
+## Features
+- no external script loading, i.e. no dependencies on SDKs
+- supports tree shaking with ES modules
+- use own style pop-up window
+- share buttons for:
+	- Facebook
+	- Twitter
+	- Email
 
 ## Installation
 
