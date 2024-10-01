@@ -14,7 +14,8 @@
 		"build": "vite build",
 		"lint": "eslint .",
 		"preview": "vite preview",
-		"test": "jest --coverage"
+		"test": "jest --coverage",
+		"performance-test": "lighthouse https://www.npmjs.com/package/react-share-pro --output json --output-path=./performance-report.json"
 	},
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.17.0",
@@ -41,6 +42,7 @@
 		"eslint-plugin-react-refresh": "^0.4.9",
 		"globals": "^15.9.0",
 		"jest": "^27.5.1",
+		"lighthouse": "^12.2.1",
 		"typescript": "^5.5.3",
 		"typescript-eslint": "^8.0.1",
 		"vite": "^5.4.1"
