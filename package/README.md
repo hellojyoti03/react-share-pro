@@ -56,7 +56,7 @@ yarn add react-share-pro
 
 ## Version Information
 
-### Current Version: 2.1.5
+### Current Version: 2.1.6
 
 This is an alpha version of `react-share-pro`. It includes the latest features and improvements but may also contain bugs or unfinished functionality. We encourage developers to test this version but recommend using it in non-production environments.
 
