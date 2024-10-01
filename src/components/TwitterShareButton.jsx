@@ -22,12 +22,12 @@ const TwitterShareButton = (props) => {
   }
   return (
     <React.Fragment>
-    <button className={"share-button"} onClick={handleShare}>
-      {props.children}
-      <i className="fa fa-twitter twitter-svg" aria-hidden="true" ></i>
+      <button className={"share-button"} onClick={handleShare}>
+        {props.children}
+        <i className="fa fa-twitter twitter-svg" aria-hidden="true" ></i>
 
-    </button>
-  </React.Fragment>
+      </button>
+    </React.Fragment>
   );
 };
 

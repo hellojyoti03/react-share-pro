@@ -1,6 +1,17 @@
-[![NPM](https://img.shields.io/npm/v/react-share-pro.svg)](https://www.npmjs.com/package/react-share-pro) ![npm bundle size](https://img.shields.io/bundlephobia/min/react-share-pro) [![downloads](https://img.shields.io/npm/dm/react-share-pro.svg?label=monthly%20downloads)](https://www.npmjs.com/package/react-share-pro) [![downloads](https://img.shields.io/npm/dt/react-share-pro.svg?label=total%20downloads)](https://www.npmjs.com/package/react-share-pro)
 
-# react-share-pro
+## Welcome to react-share-pro 👋
+
+[![npm version](https://img.shields.io/npm/v/react-share-pro/latest?logo=npm&style=flat)](https://www.npmjs.com/package/react-share-pro)
+[![node version](https://img.shields.io/node/v/react-share-pro?color=blue&style=flat)](https://www.npmjs.com/package/react-share-pro)
+![npm bundle size](https://img.shields.io/bundlephobia/min/react-share-pro) 
+[![downloads](https://img.shields.io/npm/dm/react-share-pro.svg?label=monthly%20downloads)](https://www.npmjs.com/package/react-share-pro) 
+[![downloads](https://img.shields.io/npm/dt/react-share-pro.svg?label=total%20downloads)](https://www.npmjs.com/package/react-share-pro)
+[![documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg?style=flat)](https://github.com/react-share-pro#readme)
+[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat)](https://github.com/react-share-pro/graphs/commit-activity)
+![NPM Collaborators](https://img.shields.io/npm/collaborators/react-share-pro)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://github.com/react-share-pro/blob/main/LICENSE)
+
+
 
 ## Introduction
 
