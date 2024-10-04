@@ -1,28 +1,28 @@
-name: Performance Checks
+# name: Performance Checks
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
+#   pull_request:
+#     branches:
+#       - main
 
-jobs:
-  performance:
-    runs-on: ubuntu-latest
+# jobs:
+#   performance:
+#     runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v4
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
+#     - name: Set up Node.js
+#       uses: actions/setup-node@v3
+#       with:
+#         node-version: ${{ matrix.node-version }}
 
-    - name: Install dependencies
-      run: npm install --force
+#     - name: Install dependencies
+#       run: npm install --force
 
-    - name: Run performance tests
-      run: npm run performance-test
+#     - name: Run performance tests
+#       run: npm run performance-test

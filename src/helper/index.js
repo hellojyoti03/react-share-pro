@@ -83,3 +83,28 @@ export const shareViaTwitter = ({
 		console.error("Error sharing via twitter:", error);
 	}
 };
+
+
+
+/**
+ * Shares content via Instagram.
+ *
+ * @param {Object} instagram - The Instagram details.
+ * @param {string} [instagram.url=window.location.href] - The URL to share.
+ * @param {string} [instagram.text=''] - The text to include (note that Instagram does not support direct sharing via a link).
+ * @param {string} [instagram.tab='_blank'] - The target for the share link (default is '_blank').
+ */
+export const shareViaInstagram = ({
+  text = "",
+  tab = "_blank",
+} = {}) => {
+  try {
+    // Instagram doesn't support direct URL sharing, so we open the Instagram app or website
+    const message = encodeURIComponent(text);
+    const instagramLink = `https://www.instagram.com/?url=${message}`;
+
+    window.open(instagramLink, tab);
+  } catch (error) {
+    console.error("Error sharing via Instagram:", error);
+  }
+};

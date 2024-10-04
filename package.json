@@ -1,11 +1,10 @@
 {
 	"name": "react-share-pro",
 	"description": "Boost your React applications with react-share-pro, a customizable library for adding social media sharing buttons. Share effortlessly on Facebook, Twitter, LinkedIn, Reddit, and WhatsApp with beautiful, responsive buttons. Enhance user engagement and drive traffic today!",
-	"version": "2.1.3-alpha",
+	"version": "2.1.8",
+	"main": "./src/index.tsx",
 	"private": false,
-	"files": [
-		"dist"
-	],
+
 	"engines": {
 		"node": ">=18"
 	},

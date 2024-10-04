@@ -47,24 +47,58 @@ code {
 .share-button:focus{
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
-.facebook-svg{
 
-  color: #365e8a ;
+
+.facebook-svg {
+  color: #1877F2; /* Facebook Blue */
   padding: 5px;
   align-items: center;
   font-size: 1rem;
-}
-.email-svg{
-  color: #007bff;
-  padding: 5px;
-  align-items: center;
-  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
-.twitter-svg{
-  color: #007bff;
+.facebook-svg:hover {
+  color: #0d6efd; /* Lighter blue on hover */
+}
+
+.email-svg {
+  color: #007bff; /* Blue, but you can change to fit your app's theme */
   padding: 5px;
   align-items: center;
   font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
+
+.email-svg:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+.twitter-svg {
+  color: #1DA1F2; /* Twitter Blue */
+  padding: 5px;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.twitter-svg:hover {
+  color: #0d95e8; /* Lighter blue on hover */
+}
+
+.instagram-svg {
+  color: #E4405F; /* Instagram Pinkish Red */
+  padding: 5px;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.instagram-svg:hover {
+  color: #C13584; /* Darker shade when hovered */
+}
+
 

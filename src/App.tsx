@@ -1,12 +1,12 @@
 // @ts-nocheck
 import { useState } from 'react'
-import {FacebookShareButton} from './components/index.jsx'
+import {InstagramShareButton} from './components/index.jsx'
 function App() {
   
 
   return (
     <>
-     <FacebookShareButton></FacebookShareButton>
+     <InstagramShareButton></InstagramShareButton>
     </>
   )
 }

@@ -1,4 +1,4 @@
-// @ts-nocheck
+//@ts-nocheck
 // import { StrictMode } from 'react'
 // import { createRoot } from 'react-dom/client'
 // import App from './App.tsx'
@@ -9,7 +9,7 @@
 //     <App />
 //   </StrictMode>,
 // )
-import { FacebookShareButton, EmailShareButton, TwitterShareButton } from './components/index.jsx'
+import { FacebookShareButton, EmailShareButton, TwitterShareButton , InstagramShareButton} from './components/index.jsx'
 export {
-  FacebookShareButton, EmailShareButton, TwitterShareButton
+  FacebookShareButton, EmailShareButton, TwitterShareButton, InstagramShareButton
 }
